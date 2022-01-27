@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FrenchBot:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FrenchBot_jar</output-path>
+    <root id="archive" name="FrenchBot.jar">
+      <element id="module-output" name="FrenchBot" />
+    </root>
+  </artifact>
+</component>

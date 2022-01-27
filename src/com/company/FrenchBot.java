@@ -36,7 +36,7 @@ public class FrenchBot {
 
     public void basicPasseCompose(Scanner scanner, ArrayList<String[]> arr) {
         int score = 0;
-        int upperBound = 36;
+        int upperBound = 35;
         Random rand = new Random();
         while (upperBound > 0) {
             int randInt = rand.nextInt(upperBound);
@@ -59,7 +59,7 @@ public class FrenchBot {
                 arr.remove(randInt);
             }
         }
-        System.out.println("You got " + score + " out of 36");
+        System.out.println("You got " + score + " out of 35");
     }
 
     public ArrayList<String[]> setUp(ArrayList<String[]> arr, String[][] wordList) {
